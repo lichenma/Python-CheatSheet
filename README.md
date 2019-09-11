@@ -3,6 +3,22 @@
 Collection of functions and Python commands gathered from various online sources. 
 
 
+
+### What is Python? 
+
+Python is a "batteries included" programming language that in contrast to other languages like Java, allows users to more readily focus and solve domain problems instead of dealing with the complexity of how a computer operates. Python achieves this with the following attributes: 
+
+* Python is a `high-level` language meaning that it abstracts underlying computer-related technical details. Python does not force users to think about computer memory management or proper declaration of variables and uses safe assumptions about what the programmer is trying to convey. 
+* Python is a `general-purpose` language meaning that it can be used for all problems that a computer is capable of rather than specializing in a specific area such as statistical analysis. 
+* Python is an `interpreted` language meaning that evaluation of code to obtain results can happen immediately rather than having to go through the time-consuming compile and run cycle. 
+* Python has a standard library and numerous third-pary libraries yielding a vast array of existing codebases and examples for solving problems 
+* Python has an active community and many user which means that finding solutions is really simple online
+
+
+These features come at the minor cost of reduced language performation but this is a tradeoff that the vast majority of users are willing to make in order to gain the advantages that Python has to offer. 
+
+
+
 ### Dictionary 
 
 Dictionaries are the go to data structure for Python which is a **collection which is unorder, changeable and indexed**. In python dictionaries are written with curly brackets and they have keys and values. 
