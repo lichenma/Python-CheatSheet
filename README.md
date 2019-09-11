@@ -58,6 +58,75 @@ for x, y in thisdict.items():
 ```
 
 
+We can also determine if a **specified key is present** in a dictionary using the `in` keyword: 
+
+```python
+if "model" in thisdict: 
+    print("model is one of the keys in the dictionary")
+```
+
+
+To determine **how many items** (key-value pairs) a dictionary has, use the `len()` method
+
+
+```python 
+print(len(thisdict))
+```
+
+
+
+**Adding an item** to the dictionary is done by using a new index key and assigning a value to it: 
+
+```python
+thisdict["color"] = "red"
+```
+
+
+**Removing an item** from the dictionary has several methods: 
+
+```python 
+# remove a specific key-value pair 
+thisdict.pop("model")
+
+# remove the last inserted item 
+thisdict.popitem()
+
+# another way to delete a specific key-value pair 
+del thisdict["model"]
+
+# delete the entire dictionary 
+del thisdict 
+
+# empty the dictionary 
+thisdict.clear()
+```
+
+
+**Copying ad dictionary** is not as simple as just typing `dict2 = dict1` since `dict2` is only a reference to `dict1` so any chances made in dict1 will automatically be reflected in dict2. 
+
+Ways to make a copy include using the built-in Dictionary method `copy()` and the `dict()` method. 
+
+
+
+```python 
+mydict = thisdict.copy()
+mydict = dict(thisdict)
+```
+
+
+A dictionary can also contain many dictionaries and this is referred to as nested dictionaries. 
+
+
+It is also possible to use the `dict()` **constructor** to make a new dictionary: 
+
+```python 
+thisdict = dict(brand="Ford", model="Mustang", year=1964)
+```
+
+
+
+
+
 
 
 
